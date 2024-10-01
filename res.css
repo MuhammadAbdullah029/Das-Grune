@@ -1,0 +1,245 @@
+@media screen and (max-width: 600px) {
+    main{
+        overflow-x: hidden;
+    }
+    nav h2{
+        font-size: 15px;
+    }
+    nav .part-2{
+        display: none;
+    }
+    section{
+        margin-top: 15vw;
+    }
+    .hero-text-1{
+        flex-direction: column;
+    }
+    .hero-text-1 h1{
+        font-size: 17vw;
+        line-height: 17vw;
+    }
+    .hero-text-1 .video{
+        position: absolute;
+        height: 15vw;
+        width: 80%;
+        top: 31%;
+    }
+    .video .play{
+        width: 18%;
+        font-size: 7vw;
+    }
+    .hero-text-2{
+        gap: 19vw;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 1vw;
+    
+    }
+    .hero-text-2 h1{
+        font-size: 17vw;
+        line-height: 17vw;
+    }
+    .hero-text-2 p{
+        width: 99%;
+        font-size: 5vw;
+        margin-bottom: 5vh;
+    }
+
+    .btns{
+        flex-direction: column;
+        gap: 8vw;
+    }
+    .btns .divs{
+        display: flex;
+        gap: 1vw;
+    }
+    .divs .dev1, .dev2{
+        padding:4vw 2vw;
+        font-size: 3vw;
+    }
+    .divs .dev1, .dev2, img{
+        height: 5vw;
+    }
+    .btns-imgs{
+        gap: 3vw;
+    }
+    .btns-imgs .b1{
+       width: 75vw;
+       object-fit: contain;
+    }
+    .img{
+        width: 96%;
+        height: 50vh;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        margin-top: 18vw;
+    }
+    .img .arrow{
+        width: 33.5%;
+        height: 30%;
+        top: -15%;
+        right: 8%;
+    }
+    .moving-div{
+        height: 15vh;
+        gap: 8vw;
+    }
+    .move h1{
+        font-size: 9vw;
+    }
+    .services-page{
+        height: 99vh;
+    }
+    .services-page>h1{
+        font-size: 8vw;
+    }
+    .ser-flex{
+        flex-direction: column;
+        margin-top: 5vw;
+    }
+    .ser-flex p{
+        width: 90%;
+        font-size: 4vw;
+    }
+    .ser{
+        gap: 1vw;
+        width: 99%;
+    }
+    .ser-elem{
+        padding: 1vw;
+        width: 45%;
+    }
+    .ser-elem h3{
+        font-size: 4vw;
+        margin-left: 9vw;
+    }
+    .ser-list .list-elm{
+        width: 100%;
+        height: 15%;
+    }
+    .list-elm>h1{
+        font-size: 7vw;
+    }
+
+    .quate-page{
+        width: 100%;
+        height: 30vh;
+    }
+    
+    .quate h1{
+        width: 95%;
+        font-size: 6vw;
+    }
+    
+    .project-page{
+        width: 100%;
+        /* height: 100vh; */
+        padding: 4vw;
+        background-color: #171717;
+    }
+    .pro-top{
+        height: 35%;
+    }
+    .pro-top-flex{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .pro-top-flex h1{
+        font-size: 9vw;
+        width: 90%;
+    }
+    
+    .pro-top-flex p{
+        width: 90%;
+        font-size:3vw;
+    }
+    .pro{
+        width: 80%;
+        flex-wrap: wrap;
+        margin-top: 8vw;
+    }
+    .pro .pro-elem{
+        padding: 1vw 3vw;
+        font-size: 3vw;
+    }
+
+    .pros{
+        margin-top: 5vh;
+        align-items: center;
+        gap: 3vw;
+    }
+    .pros .el1{
+        width: 100%;
+        height: 30vh;
+    }
+    .pros .el2{
+        width: 100%;
+        height: 30vh;
+    }
+    .pros .el3{
+        width: 100%;
+        height: 30vh;
+    }
+    .pros .el4{
+        width: 100%;
+        height: 30vh;
+    }
+    .pros .pro-cur{
+        width: 100%;
+        height: 35vh;
+    }
+    .pro-cur h1{
+        font-size: 11vw;
+    }
+    .pro-cur .cur-arrow{
+        font-size: 8vw;
+    }
+
+
+    footer{
+        width: 100%;
+        /* height: 100vh; */
+        background-color: #171717;
+        padding: 2vw 4vw;
+    }
+    .footer1{
+        height: 40vh;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .footer1 h1{
+        font-size: 8vw;
+    }
+    .footer-btns{
+        margin-top: 6vw;
+    }
+    .b{
+        padding: 2vw 5vw;
+        font-size: 3vw;
+    }
+    
+    footer .nam{
+        text-align: center;
+        font-size: 6vw;
+        margin-top: 3vw;
+        color: #d5ff40;
+        font-family: Hd;
+    
+    }
+    
+   .footer-flex{
+    padding-bottom: 5vh;
+   }
+   
+    .fot-imgs .line{
+        width: 90%;
+        scale: .6;
+        object-fit: contain;
+    }
+    .footer-flex>h1{
+        font-size: 2vw;
+        color: #d5ff40;
+        text-transform: uppercase;
+    }
+    
+}
