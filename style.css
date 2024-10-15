@@ -20,8 +20,6 @@ body{
     background-color: #d5ff40;
 }
 main{
-    width: 100%;
-    height: auto;
     background-color: #d5ff40;
 }
 nav{
@@ -146,7 +144,6 @@ section{
     width: 95%;
     height: 90vh;
     margin: auto;
-    background-color: red;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
     background-image: url(/3d-rendering-abstract-black-white-background-min.jpg);

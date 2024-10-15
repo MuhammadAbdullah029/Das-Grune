@@ -201,6 +201,7 @@
         /* height: 100vh; */
         background-color: #171717;
         padding: 2vw 4vw;
+        overflow: hidden;
     }
     .footer1{
         height: 40vh;
@@ -224,7 +225,7 @@
         margin-top: 3vw;
         color: #d5ff40;
         font-family: Hd;
-    
+        overflow: hidden;
     }
     
    .footer-flex{
