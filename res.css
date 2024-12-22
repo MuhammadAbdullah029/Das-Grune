@@ -75,10 +75,12 @@
         margin-top: 18vw;
     }
     .img .arrow{
-        width: 33.5%;
-        height: 30%;
+        scale: .7;
         top: -15%;
         right: 8%;
+    }
+    .arrow h1{
+        font-size: 7vw;
     }
     .moving-div{
         height: 15vh;
@@ -110,7 +112,7 @@
         width: 45%;
     }
     .ser-elem h3{
-        font-size: 4vw;
+        font-size: 3.5vw;
         margin-left: 9vw;
     }
     .ser-list .list-elm{
